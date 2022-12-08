@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fly-python-example"
+version = "0.1.0"
+description = ""
+authors = ["Brian Li <53635700+rhizome-labs@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "fly_python_example"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
