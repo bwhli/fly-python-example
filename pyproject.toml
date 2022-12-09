@@ -7,7 +7,10 @@ readme = "README.md"
 packages = [{include = "fly_python_example"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
+fastapi = "^0.88.0"
+uvicorn = "^0.20.0"
+gunicorn = "^20.1.0"
 
 
 [build-system]
